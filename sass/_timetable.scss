@@ -1,0 +1,57 @@
+$white:white;
+$blue:#18afd3;
+$orange:#f57e57;
+$back:#F1F3F9;
+$gray:#868686;
+body{
+    overflow-x:hidden;
+    font-family: 'Oswald', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+#timetable{
+    margin-top: 8%;
+	ul{
+		border-bottom:1px solid gray;
+		li{
+			list-style-type: none;
+			display: inline-block;
+			font-size:1.5em;
+			padding:20px;
+            color: $gray;
+            cursor: pointer;            
+		}
+		.active{
+			border-bottom:1px solid red;
+		}
+	}
+	#tableScroll{
+		overflow-x: auto;
+		margin-bottom:40px;
+		table{
+			min-width: 700px;
+			tbody{
+				tr{
+					td{                        
+						position: relative;
+						padding:38px 0px;
+						font-size:1.2em;
+						.doctor{
+							position: absolute;
+							top:0;
+							width:95%;
+							color:white;
+                            padding: 10px;
+                            .job{
+                                font-style: italic;
+                                font-size: 13px;
+                            }
+						}
+					}
+				}
+			}
+		}
+	}
+}

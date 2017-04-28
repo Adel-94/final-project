@@ -1,0 +1,45 @@
+$white:white;
+$blue:#18afd3;
+$orange:#f57e57;
+$back:#F1F3F9;
+$gray:#868686;
+body{
+    overflow-x:hidden;
+    font-family: 'Oswald', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.mycalendar {
+  h3 {
+      font-size: 60px;
+      text-align: center;
+        font-size: 50px;
+    }
+  h3::after {
+  content: "";
+  width: 10%;
+  border-bottom: 4px solid $blue;
+  height: 4px;
+  position: absolute;
+  top: 110%;
+  left: 45%;
+}
+.dentist {
+    position: relative;
+    margin-top: 5%;
+}
+.dentist::after {
+      content: "";
+  width: 94%;
+  border-bottom: 1px solid lightgray;
+  position: absolute;
+  bottom: -34%;
+   left: 2%;
+}
+h5 {
+    font-size: 20px;
+    color: $gray;
+
+}
+}
