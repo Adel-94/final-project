@@ -25,15 +25,43 @@
 <body>
     <!--MENU-->
     <a href="#" class="circle"> <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+    <!--THREE DOTS-->
+    <div class="fixbackwhite"> </div>
+    <img src="images/logo-dark.png" class="img-responsive resdental hidden-xs">
+    <div class="dotclose">
+        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    </div>
+
+    <div class="numberbar">
+        <ul>
+            <li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="mynumbersss">
+                    <a href="#">1-800-1234-567</a> <br>
+                    <a href="#">1-800-3214-654</a>
+                </div>
+            </li>
+            <li>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <div class="mynumbersss">
+                    <a href="#">2130 Fulton Street San Diego</a><br>
+                    <a href="#">CA 94117-1080 USA</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--////////-->
     <div class="responsidebar">
         <div class="yes">
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-bars fa-2x pull-right" aria-hidden="true"></i>
         </div>
         <div class="sidebar1">
-            <div class="no">
+            <img src="images/logo-dark.png" class="img-responsive">
+            <!--<div class="no">
                 <i class="fa fa-times fa-1x"></i>
-            </div>
-            <input type="text" class="form-control mysearch" placeholder="Search">
+            </div>-->
+            <div class="forsearch"> <input type="text" class="form-control mysearch" placeholder="Search"> <i class="fa fa-search" aria-hidden="true"></i>                </div>
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="#">ABOUT</a></li>
@@ -41,7 +69,7 @@
                 <li><a href="#"><span> PAGES </span> <i class="fa fa-angle-down pull-right aclas" aria-hidden="true" rel="pagebar1"></i></a>
                     <ul id="pagebar1" class="js-toggle">
                         <li>
-                            <a href="typography.html"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Typography </span> </a>
+                            <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Typography </span> </a>
                         </li>
                         <li> <a href="buttons.html"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span>Buttons</span></a>
                         </li>
@@ -146,6 +174,9 @@
             </div>
         </div>
         <div class="clearfix"></div>
+    </div>
+       <div class="hit">
+        <input type='text' placeholder="Type and hit enter...">
     </div>
     <div id="back-menu">
         <nav class="navbar navbar-inverse menubar container">
@@ -280,10 +311,11 @@
                         </ul>
                     </li>
                     <li class="orange"><a href="#">CONTACTS</a></li>
+                       <li id="lastsearch"> <i class="fa fa-search" aria-hidden="true"></i> </li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container progressmargin">
             <div class="row">
                 <div class="col-md-12 pull-left">
                     <h1> PROGRESS BARS </h1>
@@ -303,58 +335,64 @@
     </div>
 
     <!--FIRST PROGRESS BAR-->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h6>COUNTERS</h6>
-                <div class="col-md-8">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-11"></div>
+    <div class="first_prg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>COUNTERS</h6>
+                    <div class="col-md-12">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-11"></div>
+                    </div>
                 </div>
+
+                <div class="col-md-12 counters">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter">15</div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+                        </div>
+                        <p>Years of Experiance</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter">3749</div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+                        </div>
+                        <p>Satisfied Patients</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter">56</div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+                        </div>
+                        <p>Qualified Doctors</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="counter">8</div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-md-1 col-sm-1 col-xs-1"></div>
+                        </div>
+                        <p>Departments</p>
+                    </div>
+
+
+                </div>
+
             </div>
-
-            <div class="col-md-12 counters">
-                <div class="col-md-3">
-                    <div class="counter">15</div>
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-1 col-sm-1 col-xs-1"></div>
-                    </div>
-                    <p>Years of Experiance</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="counter">3749</div>
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-1 col-sm-1 col-xs-1"></div>
-                    </div>
-                    <p>Satisfied Patients</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="counter">56</div>
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-1 col-sm-1 col-xs-1"></div>
-                    </div>
-                    <p>Qualified Doctors</p>
-                </div>
-                <div class="col-md-3">
-                    <div class="counter">8</div>
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-1 col-sm-1 col-xs-1"></div>
-                    </div>
-                    <p>Departments</p>
-                </div>
-
-
-            </div>
-
         </div>
     </div>
+
+
+
+
+
     <!--SECOND PROGRESS BAR-->
     <div class="container progress2">
         <div class="row">
             <div class="col-md-7 col-xs-12 col-sm-12">
-                <h3>SKILL BARS</h3>
-                <section id="habilidades" class="skills">
+                <h6>SKILL BARS</h6>
+                <section id="azxc ilidades" class="skills">
                     <div class="habilidades_contenedor">
                         <div id="codeconSkills">
                             <div class="codeconSkillbar">
@@ -394,24 +432,35 @@
         </div>
     </div>
     <!--THIRD PROGRESS BAR---->
+
     <div class="container progress2">
         <div class="row">
             <h3>PROGRESS BARS</h3>
-            <div class="col-md-3 ">
-                <div class="progress-bar" data-percent="50" data-color="#ccc,#18afd3"> </div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="progress-bar" data-percent="20" data-color="#ccc,#18afd3"> </div>
-            </div>
-            <div class="col-md-3">
-                <div class="progress-bar" data-percent="87" data-color="#ccc,#18afd3"></div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="progress-bar" data-percent="37" data-color="#ccc,#18afd3"></div>
+            <div class="progress-general">
+                <div class="col-md-3 ">
+                    <div class="progress-bar" data-percent="50" data-color="#ccc,#18afd3">
+                        <h5> PREVENTIVE CARE </h5>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="progress-bar" data-percent="20" data-color="#ccc,#18afd3">
+                        <h5> RESTORATIVE CARE </h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="progress-bar" data-percent="87" data-color="#ccc,#18afd3">
+                        <h5>PEDIATRIC DENTISTRY </h5>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="progress-bar" data-percent="37" data-color="#ccc,#18afd3">
+                        <h5> TEETH WHITENING </h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+    <!--
     <div class="container spans">
         <div class="row">
             <div class="col-md-3 col-xs-12 col-sm-12  marginpro"> <span>PREVENTIVE CARE</span> </div>
@@ -419,7 +468,7 @@
             <div class="col-md-3 col-xs-12 col-sm-12 marginpro"> <span>PEDIATRIC DENTISTRY</span> </div>
             <div class="col-md-3 col-xs-12 col-sm-12 marginpro"> <span>TEETH WHITENING</span> </div>
         </div>
-    </div>
+    </div>-->
 
 
     <!-------FOOTEEERRRRRRR-------->
@@ -465,9 +514,9 @@
 
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>-->
-   
-<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="js/progress.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

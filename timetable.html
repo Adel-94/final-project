@@ -19,15 +19,43 @@
 <body>
     <!--MENU-->
     <a href="#" class="circle"> <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+    <!--THREE DOTS-->
+    <div class="fixbackwhite"> </div>
+    <img src="images/logo-dark.png" class="img-responsive resdental hidden-xs">
+    <div class="dotclose">
+        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    </div>
+
+    <div class="numberbar">
+        <ul>
+            <li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="mynumbersss">
+                    <a href="#">1-800-1234-567</a> <br>
+                    <a href="#">1-800-3214-654</a>
+                </div>
+            </li>
+            <li>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <div class="mynumbersss">
+                    <a href="#">2130 Fulton Street San Diego</a><br>
+                    <a href="#">CA 94117-1080 USA</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--////////-->
     <div class="responsidebar">
         <div class="yes">
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-bars fa-2x pull-right" aria-hidden="true"></i>
         </div>
         <div class="sidebar1">
-            <div class="no">
+            <img src="images/logo-dark.png" class="img-responsive">
+            <!--<div class="no">
                 <i class="fa fa-times fa-1x"></i>
-            </div>
-            <input type="text" class="form-control mysearch" placeholder="Search">
+            </div>-->
+            <div class="forsearch"> <input type="text" class="form-control mysearch" placeholder="Search"> <i class="fa fa-search" aria-hidden="true"></i>                </div>
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="#">ABOUT</a></li>
@@ -35,7 +63,7 @@
                 <li><a href="#"><span> PAGES </span> <i class="fa fa-angle-down pull-right aclas" aria-hidden="true" rel="pagebar1"></i></a>
                     <ul id="pagebar1" class="js-toggle">
                         <li>
-                            <a href="typography.html"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Typography </span> </a>
+                            <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Typography </span> </a>
                         </li>
                         <li> <a href="buttons.html"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span>Buttons</span></a>
                         </li>
@@ -64,7 +92,7 @@
                             <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Maintenance </span> </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span> Under Construction </span></a>
+                            <a href="progress.html"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span> Progress Bars </span></a>
                         </li>
                         <li>
                             <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Coming Soon </span> </a>
@@ -93,7 +121,7 @@
                 </li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">DEPARTMENTS</a></li>
-                <li><a href="timetable.js">TIMETABLE</a></li>
+                <li><a href="timetable.html">TIMETABLE</a></li>
                 <li><a href="#"><span> GALLERY </span> <i class="fa fa-angle-down pull-right  aclas" aria-hidden="true" rel="pagebar2"></i> </a>
                     <ul id="pagebar2" class="js-toggle">
                         <li> <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Masonry Blog </span></a></li>
@@ -119,6 +147,7 @@
         </div>
     </div>
 
+
     <div class="container">
         <div class="row margintop25 header1">
             <div class="col-md-6 hidden-xs hidden-sm">
@@ -140,6 +169,9 @@
             </div>
         </div>
         <div class="clearfix"></div>
+    </div>
+    <div class="hit">
+        <input type='text' placeholder="Type and hit enter...">
     </div>
     <div id="back-menu">
         <nav class="navbar navbar-inverse menubar container">
@@ -274,10 +306,11 @@
                         </ul>
                     </li>
                     <li class="orange"><a href="#">CONTACTS</a></li>
+                    <li id="lastsearch"> <i class="fa fa-search" aria-hidden="true"></i> </li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container timetmargin">
             <div class="row">
                 <div class="col-md-12 pull-left">
                     <h1> TIMETABLE </h1>
@@ -356,54 +389,54 @@
     </div>
 
 
-        <!-------FOOTEEERRRRRRR-------->
-        <div id="generalfooter">
-            <div class="container">
-                <div class="col-md-4 col-xs-12 col-sm-12">
-                    <img src="images/logo.png" class="img-responsive">
-                    <ul>
-                        <li> <i class="fa fa-facebook" aria-hidden="true"></i> </li>
-                        <li> <i class="fa fa-twitter" aria-hidden="true"></i> </li>
-                        <li> <i class="fa fa-google" aria-hidden="true"></i> </li>
-                        <li> <i class="fa fa-rss" aria-hidden="true"></i> </li>
-                    </ul>
-                    <h5> © 2017 All Rights Reserved Terms of Use Privacy Policy </h5>
+    <!-------FOOTEEERRRRRRR-------->
+    <div id="generalfooter">
+        <div class="container">
+            <div class="col-md-4 col-xs-12 col-sm-12">
+                <img src="images/logo.png" class="img-responsive">
+                <ul>
+                    <li> <i class="fa fa-facebook" aria-hidden="true"></i> </li>
+                    <li> <i class="fa fa-twitter" aria-hidden="true"></i> </li>
+                    <li> <i class="fa fa-google" aria-hidden="true"></i> </li>
+                    <li> <i class="fa fa-rss" aria-hidden="true"></i> </li>
+                </ul>
+                <h5> © 2017 All Rights Reserved Terms of Use Privacy Policy </h5>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-12">
+                <h3>CONTACT US </h3>
+                <div class="b1">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="#">1-800-1234-567,1-800-3214-321</a>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12">
-                    <h3>CONTACT US </h3>
-                    <div class="b1">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <a href="#">1-800-1234-567,1-800-3214-321</a>
-                    </div>
-                    <div class="b2">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <a href="#">2130 Fulton Street San Diego, CA 94117-1080 </a>
-                    </div>
-                    <div class="b3">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <a href="#">info@demolink.org</a>
-                    </div>
+                <div class="b2">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <a href="#">2130 Fulton Street San Diego, CA 94117-1080 </a>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12 lastsec">
-                    <h3>NEWSLETTER</h3>
-                    <p> Enter your email address to receive up-to-date news and new patient information. </p>
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your e-mail">
-                        </div>
-                        <button type="submit" class="btn btn-default backorange">SUBSCRIBE</button>
-                    </form>
+                <div class="b3">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <a href="#">info@demolink.org</a>
                 </div>
             </div>
+            <div class="col-md-4 col-xs-12 col-sm-12 lastsec">
+                <h3>NEWSLETTER</h3>
+                <p> Enter your email address to receive up-to-date news and new patient information. </p>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your e-mail">
+                    </div>
+                    <button type="submit" class="btn btn-default backorange">SUBSCRIBE</button>
+                </form>
+            </div>
         </div>
-        <script>
-            window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
-        </script>
-        <script src="js/bootstrap.min.js"></script>
-        <!--<script src="js/main.js"></script>-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/timetable.js"></script>
+    </div>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/main.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/timetable.js"></script>
 </body>
 
 </html>

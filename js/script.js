@@ -33,8 +33,8 @@ $("#mydots .dotone").click(function(){
     }
 
 })
-// side bar menu
-   $('.yes').click(function(){
+// side bar home
+   $('.yes111').click(function(){
        $('.sidebar').animate({left: '0'}, "1000");
    })
      $('.no').click(function(){
@@ -44,9 +44,58 @@ $("#mydots .dotone").click(function(){
       $(this).toggleClass("fa-angle-up");
      $(this).toggleClass("fa-angle-down");
     // $(".js-toggle").css("display","none");
-     var myattr=$(this).attr("rel");
-      $("#" + myattr).slideToggle(); 
+     var myattr1=$(this).attr("rel");
+      $("#" + myattr1).slideToggle(); 
 })
+});
+
+
+
+
+// difference
+
+
+    // --sidebar--
+    $('.yes i').click(function () {
+        $('.sidebar1').animate({ left: '0' }, 400);
+        $(this).toggleClass("fa-bars");
+        $(this).toggleClass("fa-arrow-left");
+        if ($(this).hasClass("fa-bars")) {
+         $('.sidebar1').animate({left: '-400'}, 200);
+        }
+    });
+    $(".sidebar1 li  i").click(function () {
+        $(this).toggleClass("fa-angle-up");
+        $(this).toggleClass("fa-angle-down");
+        // $(".js-toggle").css("display","none");
+        var myattr = $(this).attr("rel");
+        $("#" + myattr).slideToggle();
+    });
+       //three dots
+
+
+    $(".dotclose i").click(function () {
+        $(".numberbar").toggle();
+        $(this).toggleClass("fa-ellipsis-v");
+        $(this).toggleClass("fa-times");
+    });
+// difference
+
+
+        // forsearch focus
+    $(".forsearch input").focus(function(){
+               $(this).animate({
+             'padding-top': '1%',
+            'padding-left': "2%",
+            'font-size': '12px',
+        }, '0.3s');
+            $(".forsearch input").blur(function () {
+        $(this).animate({
+            'padding-top': '4%',
+            'padding-left': "3%",
+            'font-size': '16px',
+        }, '0.3s');
+    })
 });
     // ---myform--
 $(".myform").submit(function(){
@@ -87,25 +136,6 @@ $(document).ready(function(){
     }
   });
 });
-
-// OurTeam-Slider
-
-// var divlength=$(".myteam").innerWidth();
-// $(".bigteam").css("position","relative");
-// var k =0;
-// $(".bigteam").css("right",k + "px");
-// $("#dots .dot").click(function(){
-//     var l =parseInt($(this).attr('data-index'));
-//     console.log(l);
-//     if ( l !== null) {
-//         k = l * divlength;
-//         console.log(k);
-//         $(".bigteam").css("right",k + "px");
-//         $("#dots .dot").removeClass("active");
-//         $(this).addClass("active");
-//     }
-// })
-
   $('.circle').click(function(){
        $('html, body').animate({ scrollTop: 0 }, "slow")
        return false;

@@ -20,15 +20,40 @@
 <body>
     <!--MENU-->
     <a href="#" class="circle"> <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+    <!--THREE DOTS-->
+    <div class="fixbackwhite"> </div>
+    <img src="images/logo-dark.png" class="img-responsive resdental hidden-xs">
+    <div class="dotclose">
+        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    </div>
+
+    <div class="numberbar">
+        <ul>
+            <li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="mynumbersss">
+                    <a href="#">1-800-1234-567</a> <br>
+                    <a href="#">1-800-3214-654</a>
+                </div>
+            </li>
+            <li>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <div class="mynumbersss">
+                    <a href="#">2130 Fulton Street San Diego</a><br>
+                    <a href="#">CA 94117-1080 USA</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--////////-->
     <div class="responsidebar">
         <div class="yes">
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-bars fa-2x pull-right" aria-hidden="true"></i>
         </div>
         <div class="sidebar1">
-            <div class="no">
-                <i class="fa fa-times fa-1x"></i>
-            </div>
-            <input type="text" class="form-control mysearch" placeholder="Search">
+            <img src="images/logo-dark.png" class="img-responsive">
+            <div class="forsearch"> <input type="text" class="form-control mysearch" placeholder="Search"> <i class="fa fa-search" aria-hidden="true"></i>                </div>
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="#">ABOUT</a></li>
@@ -65,7 +90,7 @@
                             <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Maintenance </span> </a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span> Under Construction </span></a>
+                            <a href="progress.html"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span> Progress Bars </span></a>
                         </li>
                         <li>
                             <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> <span>  Coming Soon </span> </a>
@@ -141,6 +166,9 @@
             </div>
         </div>
         <div class="clearfix"></div>
+    </div>
+        <div class="hit">
+        <input type='text' placeholder="Type and hit enter...">
     </div>
     <div id="back-menu">
         <nav class="navbar navbar-inverse menubar container">
@@ -275,6 +303,7 @@
                         </ul>
                     </li>
                     <li class="orange"><a href="#">CONTACTS</a></li>
+                      <li id="lastsearch"> <i class="fa fa-search" aria-hidden="true"></i> </li>
                 </ul>
             </div>
         </nav>
@@ -304,14 +333,26 @@
                 <h3> CALENDAR </h3>
             </div>
             <div class="row">
-                <div class="col-md-12 hidden-xs hidden-sm dentist"> 
-                <div class="col-md-2">   <h5>GENERAL DENTISTRY </h5> </div>
-                <div class="col-md-2">   <h5>COSMETIC DENTISTRY </h5> </div>
-                <div class="col-md-2">    <h5>DENTAL IMPLANTS </h5> </div>
-                <div class="col-md-2">  <h5>TEETH WHITENING </h5> </div>
-                <div class="col-md-2"> <h5> DENTAL CROWNS </h5> </div>
-                <div class="col-md-2">  <h5> DENTURES </h5> </div>
-                 </div>
+                <div class="col-md-12 hidden-xs hidden-sm dentist">
+                    <div class="col-md-2">
+                        <h5>GENERAL DENTISTRY </h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>COSMETIC DENTISTRY </h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>DENTAL IMPLANTS </h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>TEETH WHITENING </h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5> DENTAL CROWNS </h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5> DENTURES </h5>
+                    </div>
+                </div>
             </div>
         </div>
         <div id='calendar'></div>
